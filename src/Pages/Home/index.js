@@ -1,5 +1,4 @@
 import Curve from "../../Assets/Images/curve.png";
-import Logo from "../../Assets/Images/logo.png";
 import Snowfall from 'react-snowfall'
 
 export default function Home()
@@ -10,7 +9,7 @@ export default function Home()
                 <Snowfall/>
                 <div className="container">
                     <div className="row justify-content-center">
-                        <img src={Logo} style={{marginTop: "130px"}}/>
+                        <img src={process.env.PUBLIC_URL + '/assets/logo.png'} style={{marginTop: "130px"}}/>
                     </div>
                 </div>
                 <img src={Curve} style={{position: "absolute", width: "100%", bottom: -5}}/>
