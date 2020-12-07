@@ -1,7 +1,10 @@
+import Routing from "./Routing"
+import "./Assets/Styling/scrollbar.css";
+
 function App() {
   return (
     <div className="App">
-      Hello World
+      <Routing/>
     </div>
   );
 }
