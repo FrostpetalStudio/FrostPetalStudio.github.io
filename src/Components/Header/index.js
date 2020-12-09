@@ -1,9 +1,15 @@
 export default function Header()
 {
     return(
-        <div style={{width: "100%", height: "70px", backgroundColor: "#2c2f33"}}>
-            <div className="container">
-                Header
+        <div className="row justify-content-center" style={{color: "#244573", paddingTop: "20px"}}>
+            <div style={{paddingLeft: "50px", paddingRight: "50px"}}>
+                <h3>Home</h3>
+            </div>
+            <div style={{paddingLeft: "50px", paddingRight: "50px"}}>
+                <h3>Games</h3>
+            </div>
+            <div style={{paddingLeft: "50px", paddingRight: "50px"}}>
+                <h3>About us</h3>
             </div>
         </div>
     );
