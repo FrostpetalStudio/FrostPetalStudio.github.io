@@ -3,6 +3,7 @@ import Layout from '../../Components/Layout/Layout';
 import Note from '../../Components/Note';
 import {Link} from 'react-router-dom'
 import Footer from "../../Components/Footer";
+import '../../Assets/Styling/main.css';
 
 var fontFamily = {
     fontFamily: "Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif"

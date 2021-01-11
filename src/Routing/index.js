@@ -14,7 +14,7 @@ export default function Routing()
                 <Veneficium/>
             </Route> 
             <Route exact path="/aboutus">
-                <AboutUs />
+                <AboutUs/>
             </Route>
         </Router>
     );
