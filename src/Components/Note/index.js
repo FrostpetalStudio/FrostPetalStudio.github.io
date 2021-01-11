@@ -9,7 +9,7 @@ export default function Note(imageSrc, Title, postDate, Text) {
                     <h4 style={{fontWeight: "bold", margin: 0}}>{Title}</h4>
                     <h5>{postDate}</h5>
                     <p>{Text}</p>
-                    <p className="text-primary" style={{fontWeight: "bold"}}>{"Read more ->"}</p>
+                    <div style={{padding: "7px", fontSize: "15px", color: "white", backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)", textDecoration: "none", width: "150px", textAlign: "center", borderRadius: "10px"}}> Read more </div>
                 </div>
             </div>
         </div>

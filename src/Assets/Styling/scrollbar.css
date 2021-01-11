@@ -17,3 +17,9 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+
+@font-face {
+  font-family: "Veneficium";
+  src: local("Veneficium"), url("../fonts/GhoulFriAOE.ttf") format("truetype");
+}
+
