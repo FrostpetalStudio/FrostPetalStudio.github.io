@@ -36,6 +36,33 @@ export default function Layout(children)
     );
 }
 
+export function StandardLayout(children)
+{
+    const [isFixed, setFixed] = useState(false);
+    var previousScroll = 0;
+
+    document.addEventListener('scroll', function(e) {
+        if(window.scrollY > 480 && previousScroll < 480){
+            setFixed(true);
+            previousScroll = window.scrollY;
+        } else if(window.scrollY < 480 && previousScroll > 480){
+            setFixed(false);
+            previousScroll = window.scrollY;
+        }
+    });
+
+    return(
+        <div style={{backgroundColor: "#46474D", width: "100%", overflow: "hidden", fontFamily: "Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif"}}>
+            <div style={{position: "fixed", width: "100%", zIndex: "100"}}>
+                {RadialEdge(1150, 1050, <FixedBanner/>, "#46474D", true)}
+            </div>
+            <div style={{width: "100%", position: "absolute", zIndex: "99", color: "white"}}>
+                {children}
+            </div>
+        </div>
+    );
+}
+
 function FancyBanner() {
     return(
         <div>
@@ -51,7 +78,7 @@ function FancyBanner() {
         </div>
     );
 }
-export function FixedBanner() {
+function FixedBanner() {
     return(
         <div>
             <Snowfall/>
