@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Layout from '../../Components/Layout/Layout';
 import Note from '../../Components/Note';
 import {Link} from 'react-router-dom'
+import Footer from "../../Components/Footer";
 
 var fontFamily = {
     fontFamily: "Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif"
@@ -14,6 +15,7 @@ function HomeLayout()
             <WhoWeAreSection/>
             <OurGames/>
             <RecentNews/>
+            <Footer/>
         </div>
     )
 }
@@ -73,14 +75,20 @@ function RecentNews()
                     <h1 style={{textAlign: "center", width: "100%"}}>Recent news</h1>
                     {Note(
                         process.env.PUBLIC_URL + "/assets/GameIcon.png",
-                        "'Veneficium' - Beta Release 11 January 2021",
-                        "Date posted 09 dec 2020",
+                        "'Veneficium' - Official Release 22 January 2021",
+                        "Date posted 11 jan 2020",
                         "Join Alice on her quest to save poisoned witches in her coven! In this single player platformer, you can manipulate your environment by using spells to traverse beautiful floating islands. Collect the necessary ingredients to make potions and save your coven!"
                     )}
                     {Note(
                         process.env.PUBLIC_URL + "/assets/GameIcon.png",
                         "'Veneficium' - Beta Release 11 January 2021",
                         "Date posted 09 dec 2020",
+                        "Join Alice on her quest to save poisoned witches in her coven! In this single player platformer, you can manipulate your environment by using spells to traverse beautiful floating islands. Collect the necessary ingredients to make potions and save your coven!"
+                    )}
+                    {Note(
+                        process.env.PUBLIC_URL + "/assets/GameIcon.png",
+                        "'Veneficium' - Alpha Release 18 December 2021",
+                        "Date posted 01 dec 2020",
                         "Join Alice on her quest to save poisoned witches in her coven! In this single player platformer, you can manipulate your environment by using spells to traverse beautiful floating islands. Collect the necessary ingredients to make potions and save your coven!"
                     )}
                 </div>
