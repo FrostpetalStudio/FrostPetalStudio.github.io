@@ -1,11 +1,12 @@
-export default function RadialEdge(height, margin, child, color) {
-    return(
-        <div style={{width: "200%", height: height + "px", borderRadius: "50%", backgroundColor: color, marginTop: -margin + "px", marginLeft: "-50%", overflow: "hidden", position: "relative"}}>
+var style = (height, margin, color) => { return {width: "200%", height: height + "px", borderRadius: "50%", backgroundColor: color, marginTop: -margin + "px", marginLeft: "-50%", overflow: "hidden", position: "relative"}}
 
-            <div style={{width: "100%", height: "580px", background: "radial-gradient(#ffffff 50%, #d1d3ed )", position: "absolute", bottom: 0, zIndex: "10", overflow: "hidden"}}>
+export default function RadialEdge(height, margin, child, color, hasShadow) {
+    return(
+        <div style={ hasShadow ? {...style(height, margin, color),  boxShadow: "0px 2px 10px 2px rgba(0,0,0,0.75)"} : style(height, margin, color)}>
+
+            <div style={{width: "100%", height: "580px", backgroundColor: "white", position: "absolute", bottom: 0, zIndex: "10", overflow: "hidden"}}>
                 {child}
             </div>
         </div>
     );
-
 }

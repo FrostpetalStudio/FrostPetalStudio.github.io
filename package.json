@@ -15,8 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build": "react-scripts build | git add build | git commit -m 'new build' | git subtree push --prefix build origin production",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

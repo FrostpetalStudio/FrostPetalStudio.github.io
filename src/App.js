@@ -1,5 +1,5 @@
 import Routing from "./Routing"
-import "./Assets/Styling/scrollbar.css";
+import "./assets/Styling/scrollbar.css";
 
 function App() {
   return (
