@@ -1,15 +1,17 @@
+import {Link} from "react-router-dom";
+
 export default function Header()
 {
     return(
         <div className="row justify-content-center" style={{color: "#40677E", paddingTop: "20px"}}>
             <div style={{paddingLeft: "50px", paddingRight: "50px"}}>
-                <h3 style={{ fontWeight: "bold"}}>Home</h3>
+                <Link to="/"><h3>Home</h3></Link>
             </div>
             <div style={{paddingLeft: "50px", paddingRight: "50px"}}>
-                <h3 style={{ fontWeight: "bold"}}>Games</h3>
+                <Link to="/veneficium"><h3>Veneficium</h3></Link>
             </div>
             <div style={{paddingLeft: "50px", paddingRight: "50px"}}>
-                <h3 style={{ fontWeight: "bold"}}>About us</h3>
+                <Link to="/aboutus"><h3>About us</h3></Link>
             </div>
         </div>
     );

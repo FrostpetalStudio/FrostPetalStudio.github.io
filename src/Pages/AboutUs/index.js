@@ -1,11 +1,10 @@
 import Snowfall from 'react-snowfall'
-import Header from "../Header/index.js";
+import Header from "../../Components/Header";
 import React, { useState } from 'react';
-import RadialEdge from "../RadialEdge";
+import RadialEdge from "../../Components/RadialEdge";
 
-export default function Layout(children)
+export default function Home()
 {
-
     const [isFixed, setFixed] = useState(false);
     var previousScroll = 0;
 
@@ -20,23 +19,25 @@ export default function Layout(children)
     });
 
     return(
-        <div style={{backgroundColor: "#46474D", width: "100%", overflow: "hidden", fontFamily: "Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif"}}>
-
+        <div style={{backgroundColor: "#2c2f33", width: "100%", overflow: "hidden"}}>
             {isFixed ?
                 <div style={{position: "fixed", width: "100%", zIndex: "100"}}>
-                    {RadialEdge(1150, 1050, <FixedBanner/>, "#46474D", true)}
+                    {RadialEdge(1150, 1050, <FixedBanner/>, "#2c2f33")}
                 </div>
                 : null
             }
-            {RadialEdge(1150, 575, <FancyBanner/>, "#46474D", false)}
-            <div style={{width: "100%", position: "absolute", zIndex: "99", color: "white"}}>
-                {children}
+            {RadialEdge(1150, 575, <Banner/>, "#2c2f33")}
+            <div style={{height: "2000px", width: "100%", position: "absolute", backgroundColor: "#2c2f33", zIndex: "99", color: "white"}}>
+                <div className="container">
+                    Test
+                </div>
             </div>
         </div>
+        
     );
 }
 
-function FancyBanner() {
+function Banner() {
     return(
         <div>
             <Snowfall/>
@@ -51,7 +52,7 @@ function FancyBanner() {
         </div>
     );
 }
-export function FixedBanner() {
+function FixedBanner() {
     return(
         <div>
             <Snowfall/>
