@@ -8,12 +8,13 @@ export default function Veneficium() {return(StandardLayout(<VeneficiumLayout/>)
 function VeneficiumLayout()
 {
     return(
-        <React.Fragment>
+        <div style={{zoom: 0.8}}>
             <GameBanner/>
-            <Spells/>
             <Narrative/>
+            <Spells/>
             <KeyFeatures/>
-       </React.Fragment>
+            <Footer/>
+       </div>
     )
 }
 
@@ -41,7 +42,7 @@ function GameBanner(){
 
 function Narrative() {
     return (
-        <div>
+        <div style={{marginTop: 20}}>
             <section style={{width: "100%", height: "500px", position: "relative", fontFamily: "Veneficium", backgroundColor: "white", boxShadow: "inset 0px 0px 50px 10px rgb(150,150,150)", color: "#46474D"}}>
                 <div className="container">
                     <div style={{paddingTop: "75px"}}>
@@ -59,7 +60,7 @@ function Narrative() {
 
 function Spells() {
     return (
-        <div style={{marginTop: 20}}>
+        <div>
             <section style={{width: "100%", height: "500px", position: "relative", fontFamily: "Veneficium", backgroundColor: "rgb(30,30,30)", boxShadow: "inset 0px 0px 50px 10px black"}}>
                 <div className="container">
                     <div className="row">
@@ -83,7 +84,7 @@ function Spells() {
 function KeyFeatures() {
     return (
         <div>
-            <section style={{width: "100%", height: "500px", position: "relative", fontFamily: "Veneficium", backgroundColor: "rgb(30,30,30)", boxShadow: "inset 0px 0px 50px 10px black", fontSize: "30px"}}>
+            <section style={{color: "#46474D", width: "100%", height: "500px", position: "relative", fontFamily: "Veneficium", backgroundColor: "white", boxShadow: "inset 0px 0px 50px 10px rgb(150,150,150)", fontSize: "30px"}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-4">
