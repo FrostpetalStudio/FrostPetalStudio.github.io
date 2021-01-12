@@ -1,7 +1,9 @@
 import Snowfall from 'react-snowfall'
-import Header from "../Header/index.js";
+import Header from "../Header";
+import Footer from "../Footer";
 import React, { useState } from 'react';
 import RadialEdge from "../RadialEdge";
+
 
 export default function Layout(children)
 {
@@ -20,7 +22,7 @@ export default function Layout(children)
     });
 
     return(
-        <div style={{backgroundColor: "#46474D", width: "100%", overflow: "hidden", fontFamily: "Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif"}}>
+        <div style={{backgroundColor: "rgb(30,30,30)", width: "100%", overflow: "hidden", fontFamily: "Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif"}}>
 
             {isFixed ?
                 <div style={{position: "fixed", width: "100%", zIndex: "100"}}>

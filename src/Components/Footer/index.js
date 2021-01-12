@@ -1,7 +1,7 @@
 export default function Footer()
 {
     return(
-        <div style={{backgroundColor: "rgba(70, 71, 77, 1)", borderRadius: "200px 200px 0 0", height:" 500px", color: "white"}}>
+        <div style={{backgroundColor: "rgba(30, 30, 30, 1)", boxShadow: "inset 0px 0px 50px 10px black", height:" 500px", color: "white"}}>
             <div style={{display: "flex", padding: "10%"}}>
                 <div>
                     
@@ -10,6 +10,7 @@ export default function Footer()
 
                 </div>
             </div>
+            <div style={{backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)", height: 20, marginTop: -20}}/>
         </div>
     );
 }
