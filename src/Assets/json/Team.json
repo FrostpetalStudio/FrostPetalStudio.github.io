@@ -1,6 +1,6 @@
 [{
     "image": "",
-    "name": "Ricardo",
+    "name": "Ricardo Stam",
     "type": "fire",
     "HP": "60",
     "ATK": "35",
@@ -12,7 +12,7 @@
     "HAbility": "Natural Leader"
 },{
     "image": "",
-    "name": "Vera",
+    "name": "Vera van Papeveld",
     "type": "grass",
     "HP": "60",
     "ATK": "35",
@@ -21,10 +21,10 @@
     "SPDEF": "20",
     "SPEED": "40",
     "Ability": "Designer",
-    "HAbility": "Marketing"
+    "HAbility": "Narrative/ Marketing"
 },{
     "image": "",
-    "name": "Janessa",
+    "name": "Janessa Labeur",
     "type": "electric",
     "HP": "60",
     "ATK": "35",
@@ -33,10 +33,10 @@
     "SPDEF": "20",
     "SPEED": "40",
     "Ability": "Lead Designer",
-    "HAbility": "Natural Leader"
+    "HAbility": "Natural Leader/ Level Design"
 },{
     "image": "",
-    "name": "Jeremy",
+    "name": "Jeremy Jonkers",
     "type": "grass",
     "HP": "60",
     "ATK": "35",
@@ -45,10 +45,10 @@
     "SPDEF": "20",
     "SPEED": "40",
     "Ability": "Designer",
-    "HAbility": "Level Building"
+    "HAbility": "Mechanics/ Level Design"
 },{
     "image": "",
-    "name": "Tessa",
+    "name": "Tessa van Lunenburg",
     "type": "fairy",
     "HP": "60",
     "ATK": "35",
@@ -57,7 +57,7 @@
     "SPDEF": "20",
     "SPEED": "40",
     "Ability": "Artist",
-    "HAbility": "Environment / UI"
+    "HAbility": "Environment/ UI"
 },{
     "image": "",
     "name": "Jan",
@@ -69,10 +69,10 @@
     "SPDEF": "20",
     "SPEED": "40",
     "Ability": "Lead Artist",
-    "HAbility": "Natural Leader"
+    "HAbility": "Natural Leader/ Aesthetics"
 },{
     "image": "",
-    "name": "Demi",
+    "name": "Demi ",
     "type": "fairy",
     "HP": "60",
     "ATK": "35",
@@ -81,7 +81,7 @@
     "SPDEF": "20",
     "SPEED": "40",
     "Ability": "Artist",
-    "HAbility": "Environment / Modeling"
+    "HAbility": "Environment/ Modeling"
 },{
     "image": "",
     "name": "Beau",
@@ -93,7 +93,7 @@
     "SPDEF": "20",
     "SPEED": "40",
     "Ability": "Artist",
-    "HAbility": "Character Models"
+    "HAbility": "Character Modeling"
 },{
     "image": "",
     "name": "Danillo",
@@ -105,10 +105,10 @@
     "SPDEF": "20",
     "SPEED": "40",
     "Ability": "Artist",
-    "HAbility": "Special Effects"
+    "HAbility": "Shaders/ Special Effects"
 },{
     "image": "",
-    "name": "Jordy",
+    "name": "Jordy van Santen",
     "type": "ice",
     "HP": "60",
     "ATK": "35",
@@ -117,7 +117,7 @@
     "SPDEF": "20",
     "SPEED": "40",
     "Ability": "Developer",
-    "HAbility": "Technical Art"
+    "HAbility": "Programmer/ Technical Art"
 },{
     "image": "",
     "name": "Jesse Vrooman",
@@ -129,10 +129,10 @@
     "SPDEF": "20",
     "SPEED": "40",
     "Ability": "Lead Developer",
-    "HAbility": "Natural Leader"
+    "HAbility": "Natural Leader/ Architecture"
 },{
     "image": "",
-    "name": "Lucas",
+    "name": "Lucas de Graaf",
     "type": "ice",
     "HP": "60",
     "ATK": "35",
@@ -141,7 +141,7 @@
     "SPDEF": "20",
     "SPEED": "40",
     "Ability": "Developer",
-    "HAbility": "Technical Art"
+    "HAbility": "Programmer/ Technical Art"
 },{
     "image": "",
     "name": "Ryan",
@@ -153,10 +153,10 @@
     "SPDEF": "20",
     "SPEED": "40",
     "Ability": "Developer",
-    "HAbility": "Architecture"
+    "HAbility": "Architecture/ Programmer"
 },{
     "image": "",
-    "name": "Rick",
+    "name": "Rick Bunte",
     "type": "ice",
     "HP": "60",
     "ATK": "35",
@@ -165,10 +165,10 @@
     "SPDEF": "20",
     "SPEED": "40",
     "Ability": "Developer",
-    "HAbility": "Design Tools"
+    "HAbility": "Programmer/ Design Tools"
 },{
     "image": "",
-    "name": "Jasper",
+    "name": "Jasper Mourik",
     "type": "ice",
     "HP": "60",
     "ATK": "35",
@@ -177,5 +177,5 @@
     "SPDEF": "20",
     "SPEED": "40",
     "Ability": "Developer",
-    "HAbility": "Ryan's Bitch"
+    "HAbility": "Programmer/ UI"
 }]

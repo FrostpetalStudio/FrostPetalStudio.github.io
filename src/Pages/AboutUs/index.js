@@ -3,6 +3,7 @@ import { StandardLayout } from "../../Components/Layout/Layout";
 import "../../assets/Styling/main.css";
 import data from "../../assets/json/Team.json"
 import Card from "../../Components/Card";
+import Footer from '../../Components/Footer'
 
 function AboutUsLayout() {
   return (
@@ -62,9 +63,9 @@ function TheTeam() {
           boxShadow: "inset 0px 0px 50px 10px black",
         }}
       >
-        <div className="container"style={{padding: 30}}>
-          <h1 style={{textAlign: "center", fontSize: "70px"}}>About Us</h1>
-          <p style={{fontSize: "30px", textAlign: "center"}}>
+        <div className="container"style={{padding: 70}}>
+          <h1 style={{textAlign: "center", fontSize: "60px"}}>About Us</h1>
+          <p style={{fontSize: "25px", textAlign: "center"}}>
           First of all, we would like to thank you for checking out our game! We are Frostpetal Studio,  a group of 15 students working on this game for a university project. All of us are very invested to bring you a great game, and hope you have fun playing it. We hope you stick with us as we work on Veneficium (and maybe other projects too, in the future!)
           If you are interested in following our team more closely, check out our other socials too!
 
@@ -106,15 +107,23 @@ function TeamPics() {
             <h1 style={{ textAlign: "center", fontSize: 70 }}>The Team</h1>
             <div>
               <div style={{ flexBasis: "500px" }}>
+                <div style={{backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)",height: 5}}/>
+                <h1 style={{textAlign: "center"}}>Producer</h1>
                 <div id="cards" className="row justify-content-center" style={{maxWidth: "100%"}} >  
                     {data.map((d, i) => i === 0 ? Card(d) : null)}
                 </div>
+                <div style={{backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)",height: 5}}/>
+                <h1 style={{textAlign: "center"}}>Designers</h1>
                 <div id="cards" className="row justify-content-center" style={{maxWidth: "100%"}} >  
                     {data.map((d, i) => i >= 1  && i <= 3 ? Card(d) : null)}
                 </div>
+                <div style={{backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)",height: 5}}/>
+                <h1 style={{textAlign: "center"}}>Artists</h1>
                 <div id="cards" className="row justify-content-center" style={{maxWidth: "100%"}} >  
                     {data.map((d, i) => i >= 4  && i <= 8 ? Card(d) : null)}
                 </div>
+                <div style={{backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)",height: 5}}/>
+                <h1 style={{textAlign: "center"}}>Developers</h1>
                 <div id="cards" className="row justify-content-center" style={{maxWidth: "100%"}} >  
                     {data.map((d, i) => i >= 9  && i <= 15 ? Card(d) : null)}
                 </div>
@@ -131,10 +140,6 @@ function TeamPics() {
       />
     </div>
   );
-}
-
-function Footer() {
-  return <div>Dit is de footer</div>;
 }
 
 export default function AboutUs() {
