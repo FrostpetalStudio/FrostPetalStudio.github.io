@@ -8,13 +8,13 @@ export default function Veneficium() {return(StandardLayout(<VeneficiumLayout/>)
 function VeneficiumLayout()
 {
     return(
-        <React.Fragment>
+        <div style={{zoom: 0.8}}>
             <GameBanner/>
             <Narrative/>
             <Spells/>
             <KeyFeatures/>
             <Footer/>
-       </React.Fragment>
+       </div>
     )
 }
 
