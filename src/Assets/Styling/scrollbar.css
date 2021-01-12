@@ -23,3 +23,6 @@
   src: local("Veneficium"), url("../fonts/GhoulFriAOE.ttf") format("truetype");
 }
 
+* {
+  zoom: 0.9999; 
+}
