@@ -143,3 +143,22 @@
 	 transform: translateY(-10px);
 }
  
+
+ /* Style all font awesome icons */
+ .fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+
+    background-image: linear-gradient(to right, #028b67, #067f8f); 
+    color: white;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+    color: white;
+  }
