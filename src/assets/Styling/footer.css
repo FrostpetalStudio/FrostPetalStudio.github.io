@@ -1,0 +1,39 @@
+.footer__nav{
+    max-width: 1170;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__col{
+    margin-right: 2.5%;
+    width: 14.5%;
+    line-height: 25px;
+}
+
+.footer__col--intro{
+    clear: none;
+    border-bottom: 0;
+    margin-bottom: 0;
+    min-width: auto;
+    padding-bottom: 60px;
+}
+
+.footer__img{
+    width: 150px;
+    color: white;
+}
+
+.footer__title{
+    padding-bottom: 8px;
+}
+
+.footer__link{
+    color: #9b9b9b;
+    display: block;
+    font-size: 12px;
+    transition: color .75s ease;
+}
+
+.footer__link:hover{
+    color: #fff;
+}
