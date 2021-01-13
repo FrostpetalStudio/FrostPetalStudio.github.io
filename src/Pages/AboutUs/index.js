@@ -43,14 +43,13 @@ function Aboutus() {
             </div>
             <div className="container" style={{paddingBottom: "50px", textAlign: "center"}}>
                 <h1 style={{textAlign: "center", fontSize: "50px", marginBottom: "60px"}}>Our socials</h1>
-                <a href="#" class="fa fa-github"><FontAwesomeIcon icon={faTiktok}/></a>
-                <a href="#" class="fa fa-github"><FontAwesomeIcon icon={faTwitter} /></a>
-                <a href="#" class="fa fa-github"><FontAwesomeIcon icon={faGithub} /></a>
-                <a href="#" class="fa fa-github"><FontAwesomeIcon icon={faReddit} /></a>
-                <a href="#" class="fa fa-github"><FontAwesomeIcon icon={faItchIo}/></a>
-                <a href="#" class="fa fa-github"><FontAwesomeIcon icon={faTwitch}/></a>
-                <a href="#" class="fa fa-github"><FontAwesomeIcon icon={faDiscord}/></a>
-                <a href="#" class="fa fa-github"><FontAwesomeIcon icon={faInstagram}/></a>
+                <a href="https://www.tiktok.com/@veneficium_game?_d=secCgsIARCbDRgBIAMoARI%2BCjySd%2BewNhlK8ZBZJHh%2B6T0Xas2zYKTXSRjpkX2Yk22ol5aDVS5g2r9oEXFNBnYumRccPEkRRRhTwGhZW1waAA%3D%3D&language=nl&sec_uid=MS4wLjABAAAAa9pF8CH6ncQEgiwS2LljSinAwrqzg8Kpf56e-L_m_b9uZbFgw8gy1pCzU7z8M0hT&sec_user_id=MS4wLjABAAAAa9pF8CH6ncQEgiwS2LljSinAwrqzg8Kpf56e-L_m_b9uZbFgw8gy1pCzU7z8M0hT&share_app_name=musically&share_author_id=6841890574070121478&share_link_id=95287eb1-9e3e-488a-95a4-46553fc43ff8&timestamp=1608154199&u_code=dd4h6id5681jl6&user_id=6841890574070121478&utm_campaign=client_share&utm_medium=android&utm_source=copy&source=h5_m" class="fa fa-github"><FontAwesomeIcon icon={faTiktok}/></a>
+                <a href="https://twitter.com/veneficium_game" class="fa fa-github"><FontAwesomeIcon icon={faTwitter} /></a>
+                <a href="https://www.reddit.com/r/FrostPetalStudios/" class="fa fa-github"><FontAwesomeIcon icon={faReddit} /></a>
+                <a href="https://frostpetalstudio.itch.io/veneficium" class="fa fa-github"><FontAwesomeIcon icon={faItchIo}/></a>
+                <a href="https://www.twitch.tv/frostpetalstudio" class="fa fa-github"><FontAwesomeIcon icon={faTwitch}/></a>
+                <a href="https://discord.com/invite/W6CSsyY" class="fa fa-github"><FontAwesomeIcon icon={faDiscord}/></a>
+                <a href="https://www.instagram.com/veneficium_game/" class="fa fa-github"><FontAwesomeIcon icon={faInstagram}/></a>
             </div>
         </section>
         <div style={{backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)", height: 20}}/>
