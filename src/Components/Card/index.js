@@ -37,7 +37,7 @@ export default function Card(data) {
 
                         <tr>
                           <th>Special Attack</th>
-                          <td>{data.HP}</td>
+                          <td>{data.SPATK}</td>
                         </tr>
                         <tr>
                           <th>Special Defense</th>

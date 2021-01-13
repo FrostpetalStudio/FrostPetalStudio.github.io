@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import AbilitySection from '../../Components/Ability';
 import {StandardLayout} from '../../Components/Layout/Layout';
 import Footer from '../../Components/Footer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faItchIo, faSteam } from '@fortawesome/free-brands-svg-icons';
+import { faBolt } from '@fortawesome/free-solid-svg-icons';
 
 export default function Veneficium() {return(StandardLayout(<VeneficiumLayout/>))}   
 
@@ -13,6 +16,7 @@ function VeneficiumLayout()
             <Narrative/>
             <Spells/>
             <KeyFeatures/>
+            <Download/>
             <Footer/>
        </div>
     )
@@ -24,7 +28,7 @@ function GameBanner(){
             <section style={{background: "url("+ process.env.PUBLIC_URL + "/assets/Veneficium-ActionShot.PNG" +")", width: "100%", height: "1080px", position: "relative", fontFamily: "Veneficium"}}>
                 <div style={{height: "100%", width: "100%", backgroundColor: "rgb(70,70,70)", opacity: "0.4"}}/>
 
-                <div style={{padding: "10px", fontSize: "30px", color: "white", backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)", textDecoration: "none", width: "300px", position: "absolute", right: 150, top: 150, textAlign: "center", borderRadius: "10px",}}> Download Game </div>
+                <div style={{cursor: "pointer", padding: "10px", fontSize: "30px", color: "white", backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)", textDecoration: "none", width: "300px", position: "absolute", right: 150, top: 150, textAlign: "center", borderRadius: "10px"}} onClick={() => document.getElementById("downloads").scrollIntoView({ behavior: "smooth" })}> Download Game </div>
 
                 <h1 style={{position: "absolute", bottom: 500, width: "100%", textAlign: "center", fontSize: 150}}>Veneficium</h1>
                 <h1 style={{position: "absolute", bottom: 470, width: "100%", textAlign: "center", fontSize: 50}}>Explore a world of magic with Alice!</h1>
@@ -104,4 +108,50 @@ function KeyFeatures() {
             <div style={{backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)", height: 20}}/>
         </div>
     );
+}
+
+function Download() {
+    return (
+        <div>
+            <section id="downloads" style={{width: "100%", height: "500px", position: "relative", fontFamily: "Veneficium", backgroundColor: "rgb(30,30,30)", boxShadow: "inset 0px 0px 50px 10px black", padding: 60}}>
+                <div className="container">
+                    <div>
+                        <h1 style={{textAlign: "center"}}>Download Game</h1>
+                        <div style={{textAlign: "center", listStyle: "none", fontSize: 20}}>
+                            <p style={{padding: 0, margin: 0}}>Version: 1.1</p>
+                            <p style={{padding: 0, margin: 0}}>Size: 200 MB</p>
+                            <p style={{padding: 0, margin: 0}}>Last Update: 13 January 2021 MB</p>
+                        </div>
+                    </div>
+                    <div className="row justify-content-center" style={{fontSize: "120px", padding: 10, textAlign: "center"}}>
+                        <div className="col-4">
+                            <FontAwesomeIcon icon={faItchIo}/>
+                            <div className="row justify-content-center">
+                                <a href="https://frostpetalstudio.itch.io/veneficium" style={{padding: "10px", fontSize: "25px", color: "white", backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)", textDecoration: "none", width: "200px",  textAlign: "center", borderRadius: "10px"}}> 
+                                    Itch.io Download 
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-4">
+                            <FontAwesomeIcon icon={faSteam}/>
+                            <div className="row justify-content-center">
+                                <button disabled style={{opacity: 0.5, padding: "10px", fontSize: "25px", color: "white", backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)", textDecoration: "none", width: "200px",  textAlign: "center", borderRadius: "10px"}}> 
+                                    Steam Download 
+                                </button>
+                            </div>
+                        </div>
+                        <div className="col-4">
+                            <FontAwesomeIcon icon={faBolt}/>
+                            <div className="row justify-content-center">
+                                <a href="https://gamejolt.com/games/veneficium/569136" style={{padding: "10px", fontSize: "25px", color: "white", backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)", textDecoration: "none", width: "200px",  textAlign: "center", borderRadius: "10px"}}> 
+                                    Jolt Download 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div style={{backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)", height: 20}}/>
+        </div>
+    )
 }
