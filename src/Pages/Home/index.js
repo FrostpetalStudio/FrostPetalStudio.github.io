@@ -80,21 +80,27 @@ function RecentNews()
                     <div className="col-12" style={{padding: "100px"}}>
                         <h1 style={{textAlign: "center", width: "100%"}}>Recent news</h1>
                         {Note(
-                            process.env.PUBLIC_URL + "/assets/GameIcon.png",
-                            "'Veneficium' - Official Release 22 January 2021",
-                            "Date posted 11 jan 2020",
-                            "Join Alice on her quest to save poisoned witches in her coven! In this single player platformer, you can manipulate your environment by using spells to traverse beautiful floating islands. Collect the necessary ingredients to make potions and save your coven!"
+                            process.env.PUBLIC_URL + "/assets/Social_Image_1.png",
+                            "HR Minor Game Showcase",
+                            "Date posted 22 jan 2021",
+                            "Upcomming Thueday we will display our game at the Game Minor Showcase. In this showcase all groups of students will present there games an show some gameplay",
+                            "",
+                            process.env.PUBLIC_URL + "/assets/Social_Image_2.png"
+                        )}
+                        {Note(
+                            process.env.PUBLIC_URL + "/assets/BigUpdatePost.png",
+                            "'Veneficium' - Official Release 25 January 2021",
+                            "Date posted 11 jan 2021",
+                            "In Veneficium, you play as a witch-in-training called Alice. Alice has to use her ice, fire and storm ability to platform around the world. Use your abilities to manipulate your environment and solve unique and fun puzzles on your way. Throughout her journey, Alice encounters many troubled witches that are in dire need of help. During the game, you will collect items for curing potions, find hidden witches within the levels, and use your spells to destroy dangerous Elemental Miasmas and Chaos Orbs that block your path! The simple, yet endearing and vibrant environment in Veneficium is definitely worth taking a look at. The aesthetics in our game may even take you back to the old days of Sonic the Hedgehog and the level design will remind you of Banjo-Kazooie. Will you help Alice on her journey to save the witches in her coven?",
+                            "The beta release for Veneficium just went live! Download the game here:"+ <br/> + "https://gamejolt.com/games/veneficium/569136" + <br/> + "https://frostpetalstudio.itch.io/veneficium"
+
+
+
                         )}
                         {Note(
                             process.env.PUBLIC_URL + "/assets/GameIcon.png",
                             "'Veneficium' - Beta Release 11 January 2021",
                             "Date posted 09 dec 2020",
-                            "Join Alice on her quest to save poisoned witches in her coven! In this single player platformer, you can manipulate your environment by using spells to traverse beautiful floating islands. Collect the necessary ingredients to make potions and save your coven!"
-                        )}
-                        {Note(
-                            process.env.PUBLIC_URL + "/assets/GameIcon.png",
-                            "'Veneficium' - Alpha Release 18 December 2021",
-                            "Date posted 01 dec 2020",
                             "Join Alice on her quest to save poisoned witches in her coven! In this single player platformer, you can manipulate your environment by using spells to traverse beautiful floating islands. Collect the necessary ingredients to make potions and save your coven!"
                         )}
                     </div>
