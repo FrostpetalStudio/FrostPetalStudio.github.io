@@ -53,7 +53,7 @@ function OurGames()
                                     <img style={{width: "auto", height: "200%", marginTop: "-35%", marginLeft: "-50px"}} src="https://cdn.discordapp.com/attachments/763687401318383616/786933803310252093/Alice_Render_Solo.png"/>
                                     <div style={{textAlign: "right", width: "64%", position: "absolute", right: 30, top: 0, color: "white", fontSize: "30px", paddingTop: 60}}>
                                         Join Alice on her quest to save poisoned witches in her coven! In this single player platformer
-                                        <Link to="/Games">
+                                        <Link to="/veneficium">
                                             <div style={{padding: "10px", fontSize: "20px", color: "white", backgroundImage: "linear-gradient(to right, #08d49d, #08bcd4)", textDecoration: "none", width: "200px", position: "absolute", right: 0, bottom: -80, textAlign: "center", borderRadius: "10px"}}> Go To Game </div>
                                         </Link>
                                     </div>
@@ -91,8 +91,10 @@ function RecentNews()
                             process.env.PUBLIC_URL + "/assets/BigUpdatePost.png",
                             "'Veneficium' - Official Release 25 January 2021",
                             "Date posted 11 jan 2021",
-                            "In Veneficium, you play as a witch-in-training called Alice. Alice has to use her ice, fire and storm ability to platform around the world. Use your abilities to manipulate your environment and solve unique and fun puzzles on your way. Throughout her journey, Alice encounters many troubled witches that are in dire need of help. During the game, you will collect items for curing potions, find hidden witches within the levels, and use your spells to destroy dangerous Elemental Miasmas and Chaos Orbs that block your path! The simple, yet endearing and vibrant environment in Veneficium is definitely worth taking a look at. The aesthetics in our game may even take you back to the old days of Sonic the Hedgehog and the level design will remind you of Banjo-Kazooie. Will you help Alice on her journey to save the witches in her coven?",
-                            "The beta release for Veneficium just went live! Download the game here:"+ <br/> + "https://gamejolt.com/games/veneficium/569136" + <br/> + "https://frostpetalstudio.itch.io/veneficium"
+                            `The final version of Veneficium went live today! Check the link in our bio to download the game. We’ve implemented a whole new level and done a ton of fixes to improve your experience. Click the link below to download the game.
+                            `,
+                            `https://gamejolt.com/games/veneficium/569136
+                            https://frostpetalstudio.itch.io/veneficium`
 
 
 
@@ -101,7 +103,22 @@ function RecentNews()
                             process.env.PUBLIC_URL + "/assets/GameIcon.png",
                             "'Veneficium' - Beta Release 11 January 2021",
                             "Date posted 09 dec 2020",
-                            "Join Alice on her quest to save poisoned witches in her coven! In this single player platformer, you can manipulate your environment by using spells to traverse beautiful floating islands. Collect the necessary ingredients to make potions and save your coven!"
+                            `The beta release for Veneficium just went live! Download the game on Itch.io And GameJolt`,
+                            `Here’s the patch notes:
+                             General - objects effected by an ice effect now indicate more clearly when it will end. 
+                             Beanstalk - Fixed a bug where beanstalks effected by wind would not respawn after the player dies. Improvements 
+                             The save system should now properly work.
+                             Extra health pick-up now works as intended.
+                             Walkable slopes - Traversing up a slope feels more natural, this is still work in progress.
+                             Jumping on slopes - This has been made more accessible, this is still work in progress. 
+                             Return to hub/main menu button added to pause screen.
+                             Level 1 - witch village quest now respawns correctly. Environment Elder woods now guide you through the introduction level. Added in-game indicators for;
+                             Quest pick-up
+                             Quest delivery
+                             Level completion
+                             Reasons for death 
+                             Ability guidance Controller Tweaked controller support, this is still work in progress. Let us know what you guys think about the new patch!
+                             `
                         )}
                     </div>
                 </div>

@@ -3,7 +3,7 @@ import '../../assets/Styling/footer.css';
 export default function Footer()
 {
     return(
-        <div style={{backgroundColor: "rgba(30, 30, 30, 1)", boxShadow: "inset 0px 0px 50px 10px black", height:" 450px", color: "white", position: "relative", zoom: 1}}>
+        <div style={{backgroundColor: "rgba(30, 30, 30, 1)", boxShadow: "inset 0px 0px 50px 10px black", height:" 650px", color: "white", position: "relative"}}>
             <div style={{display: "flex", padding: "5%", justifyContent: "center"}}  className="footer__nav">
                 <section className="footer__col footer__col--intro">
                     <img className="footer__img" src={process.env.PUBLIC_URL + '/assets/logo.png'}/>

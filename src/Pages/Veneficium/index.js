@@ -11,7 +11,7 @@ export default function Veneficium() {return(StandardLayout(<VeneficiumLayout/>)
 function VeneficiumLayout()
 {
     return(
-        <div style={{zoom: 0.8}}>
+        <div>
             <GameBanner/>
             <Narrative/>
             <Spells/>
@@ -52,7 +52,7 @@ function Narrative() {
                     <div style={{paddingTop: "75px"}}>
                         <h1 style={{textAlign: "center", fontSize: 70}}>The Story</h1>
                         <h3 style={{textAlign: "center"}}>
-                            In Veneficium, you play as a witch-in-training called Alice. Alice lives in a magical place called Diana's coven, and you will be making a trip with her through her homeplace.  At the start of the story, she will learn that the witches in her coven have all gone missing, and so the brave little witch decides it is her task to go look for them. Throughout her journey, she will encounter many troubled witches that she has to help. Not only this, but she also learns more and more about the cause of all of these terrible things. Will you help Alice on her journey to save the witches in her coven?
+                        In Veneficium, you play as a witch-in-training called Alice. Alice has to use her ice, fire and storm ability to platform around the world. Use your abilities to manipulate your environment and solve unique and fun puzzles on your way. Throughout her journey, Alice encounters many troubled witches that are in dire need of help. During the game, you will collect items for curing potions, find hidden witches within the levels, and use your spells to destroy dangerous Floating Crystals and Chaos Orbs that block your path! The simple, yet endearing and vibrant environment in Veneficium is definitely worth taking a look at. The aesthetics in our game may even take you back to the old days of Sonic the Hedgehog and the level design will remind you of Banjo-Kazooie. Will you help Alice on her journey to save the witches in her coven?
                         </h3>
                     </div>
                 </div>
